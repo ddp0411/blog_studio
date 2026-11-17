@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 scripts/ai_tells.py:*)",
+      "Bash(python scripts/ai_tells.py:*)",
+      "Bash(mkdir -p posts/:*)",
+      "Read(./**)",
+      "Edit(./posts/**)",
+      "Write(./posts/**)",
+      "Edit(./stats/**)"
+    ],
+    "deny": [
+      "Edit(./posts/*/notes.md)",
+      "Write(./posts/*/notes.md)"
+    ]
+  }
+}
